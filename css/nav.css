@@ -1,0 +1,90 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    color: #333; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+
+header {
+    color: #fff; 
+    padding: 20px 0;
+    background: linear-gradient(to right, #0467DB, #023B60); 
+    text-align: center; 
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+
+.navbar {
+    background: linear-gradient(to right, #0467DB, #023B60); 
+    border-bottom-left-radius: 50% 20px;
+    border-bottom-right-radius: 50% 20px;
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+position: sticky;
+top: 1px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #0467DB; 
+}
+
+footer {
+    background: linear-gradient(to right, #0467DB, #023B60); 
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    border-bottom-left-radius: 50% 20px;
+    border-bottom-right-radius: 50% 20px;
+}
+
+
+.button {
+    background-color: #0467DB; 
+    color: #fff; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #023B60; 
+    color: #fff; 
+}

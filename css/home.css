@@ -43,3 +43,16 @@
 #fvz {
     border-radius: 80px;
 }
+.cv-link {
+    display: inline-block;
+    background-color: #0467DB;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cv-link:hover {
+    background-color: #023B60;
+}

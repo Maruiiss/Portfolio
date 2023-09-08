@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden; 
 }
 
 .container {
@@ -101,11 +102,6 @@ footer {
 }
 
 
-#sorry {
-    position: relative;
-    top: 20%;
-    left: 20%;
-}
 @media screen and (max-width: 768px) {
     .container {
         padding: 10px;

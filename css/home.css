@@ -56,3 +56,23 @@
 .cv-link:hover {
     background-color: #023B60;
 }
+
+
+.about-text audio {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #0467DB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.about-text audio::-webkit-media-controls {
+    background-color: #0467DB;
+}
+
+.about-text audio::-webkit-media-controls-progress-bar {
+    background-color: #023B60;
+}
+

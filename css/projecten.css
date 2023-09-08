@@ -99,3 +99,31 @@ footer {
     border-bottom-left-radius: 50% 20px;
     border-bottom-right-radius: 50% 20px;
 }
+
+
+#sorry {
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .navbar ul li {
+        margin: 0 10px;
+    }
+
+    .section {
+        padding: 20px 0; 
+    }
+}
